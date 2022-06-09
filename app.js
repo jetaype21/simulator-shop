@@ -69,7 +69,7 @@ const pintarCarrito = () => {
         template.querySelector('span').textContent = producto.precio * producto.cantidad
         
         //botones
-        template.querySelector('.btn-success').dataset.id = producto.id
+        template.querySelector('.btn-info').dataset.id = producto.id
         template.querySelector('.btn-danger').dataset.id = producto.id
 
         const clone = template.cloneNode(true)
