@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fetchData()
 })
 
+//sd
 const fetchData = async () => {
     try {
         const res = await fetch('api.json')
